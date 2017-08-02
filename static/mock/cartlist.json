@@ -1,0 +1,60 @@
+{
+    "result": {
+        "shopInfo": {
+            "shopName": "母婴店", 
+            "sellerUserIdEsc": "1o3bm6",
+            "cartnum":2
+        }, 
+        "cartItemGroup": [
+            {
+                "number": 1, 
+                "sku": {
+                    "nowprice": 13930, 
+                    "imgUrl": "http://b.hiphotos.baidu.com/image/pic/item/060828381f30e924293d2ba744086e061c95f78f.jpg", 
+                    "title": "今年必备长款有范挺括大衣毛呢外套", 
+                    "stock": 5, 
+                    "price": 19900, 
+                    "skuAttributes": [
+                        {
+                            "value": "灰蓝", 
+                            "key": "颜色"
+                        }, 
+                        {
+                            "value": "L", 
+                            "key": "尺码"
+                        }
+                    ], 
+                    "sellerUserIdEsc": "1o3bm6", 
+                    "currency": "RMB"
+                }, 
+                "skuNumberRelatedTagBlock": { }
+            }, 
+            {
+                "number": 2, 
+                "sku": {
+                    "nowprice": 3900, 
+                    "imgUrl": "http://b.hiphotos.baidu.com/image/pic/item/060828381f30e924293d2ba744086e061c95f78f.jpg", 
+                    "title": "✌正版✌时尚撞色条纹宽松圆领T恤", 
+                    "stock": 5, 
+                    "price": 5571, 
+                    "skuAttributes": [
+                        {
+                            "value": "玫红", 
+                            "key": "颜色"
+                        }, 
+                        {
+                            "value": "L", 
+                            "key": "尺码"
+                        }
+                    ], 
+                    "sellerUserIdEsc": "1o3bm6", 
+                    "currency": "RMB"
+                }, 
+                "skuNumberRelatedTagBlock": { }
+            }
+        ]
+    }, 
+    "message": "", 
+    "code": 1001, 
+    "msg": ""
+}

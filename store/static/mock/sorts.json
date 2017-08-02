@@ -1,0 +1,50 @@
+{
+    "code": 1001,
+    "message": "获取数据成功!",
+    "result": {
+        "sorts": [
+            {
+                "name": "奶粉",
+                "list": [
+                    {
+                        "name": "奶粉1",
+                        "src": "http://a.hiphotos.baidu.com/image/pic/item/2f738bd4b31c8701412fac782f7f9e2f0608ff97.jpg"
+                    },
+                    {
+                        "name": "奶粉2",
+                        "src": "http://a.hiphotos.baidu.com/image/pic/item/2f738bd4b31c8701412fac782f7f9e2f0608ff97.jpg"
+                    },
+                    {
+                        "name": "奶粉3",
+                        "src": "http://a.hiphotos.baidu.com/image/pic/item/2f738bd4b31c8701412fac782f7f9e2f0608ff97.jpg"
+                    },
+                    {
+                        "name": "奶粉4",
+                        "src": "http://a.hiphotos.baidu.com/image/pic/item/2f738bd4b31c8701412fac782f7f9e2f0608ff97.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "尿布",
+                "list": [
+                    {
+                        "name": "尿布1",
+                        "src": "http://a.hiphotos.baidu.com/image/pic/item/2f738bd4b31c8701412fac782f7f9e2f0608ff97.jpg"
+                    },
+                    {
+                        "name": "尿布2",
+                        "src": "http://a.hiphotos.baidu.com/image/pic/item/2f738bd4b31c8701412fac782f7f9e2f0608ff97.jpg"
+                    },
+                    {
+                        "name": "尿布3",
+                        "src": "http://a.hiphotos.baidu.com/image/pic/item/2f738bd4b31c8701412fac782f7f9e2f0608ff97.jpg"
+                    },
+                    {
+                        "name": "尿布4",
+                        "src": "http://a.hiphotos.baidu.com/image/pic/item/2f738bd4b31c8701412fac782f7f9e2f0608ff97.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+}

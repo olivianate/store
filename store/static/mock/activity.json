@@ -1,0 +1,32 @@
+{
+  "code":0,
+  "message":"获取数据成功!",
+  "data":{
+    "activity":[
+        {
+        "style":0,
+        "pic":"http://e.hiphotos.baidu.com/image/pic/item/b8389b504fc2d56279ed677bef1190ef77c66cbb.jpg",
+        },
+        {
+        "style":0,
+        "pic":"http://e.hiphotos.baidu.com/image/pic/item/b8389b504fc2d56279ed677bef1190ef77c66cbb.jpg",
+        },
+        {
+        "style":0,
+        "pic":"http://e.hiphotos.baidu.com/image/pic/item/b8389b504fc2d56279ed677bef1190ef77c66cbb.jpg",
+        },
+        {
+        "style":1,
+        "pic":"http://c.hiphotos.baidu.com/image/pic/item/37d3d539b6003af3e85f6bf63d2ac65c1138b6bb.jpg",
+        },
+        {
+        "style":1,
+        "pic":"http://c.hiphotos.baidu.com/image/pic/item/29381f30e924b8993ba5ceae66061d950b7bf68f.jpg",
+        },
+        {
+        "style":1,
+        "pic":"http://e.hiphotos.baidu.com/image/pic/item/b7003af33a87e950e1f244fa18385343faf2b4bb.jpg",
+        },
+      ]
+  }
+}

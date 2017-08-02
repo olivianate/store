@@ -1,0 +1,43 @@
+{
+    "code": 0,
+    "message": "获取数据成功!",
+    "data": {
+        "goodslist": [
+            {
+                "title": "春季新春季新品春季新品春季新品春季新品品",
+                "pic": "http://b.hiphotos.baidu.com/image/pic/item/060828381f30e924293d2ba744086e061c95f78f.jpg",
+                "price": "95",
+                "oldprice": "118",
+                "sellnum": "110"
+            },
+            {
+                "title": "TT恤T恤T恤T恤T恤恤",
+                "pic": "http://b.hiphotos.baidu.com/image/pic/item/060828381f30e924293d2ba744086e061c95f78f.jpg",
+                "price": "95",
+                "oldprice": "118",
+                "sellnum": "110"
+            },
+            {
+                "title": "省心省心套装省心套装省心套装省心套装套装",
+                "pic": "http://b.hiphotos.baidu.com/image/pic/item/060828381f30e924293d2ba744086e061c95f78f.jpg",
+                "price": "95",
+                "oldprice": "118",
+                "sellnum": "110"
+            },
+            {
+                "title": "衬衬衫衬衫衬衫衬衫衬衫衫",
+                "pic": "http://b.hiphotos.baidu.com/image/pic/item/060828381f30e924293d2ba744086e061c95f78f.jpg",
+                "price": "95",
+                "oldprice": "118",
+                "sellnum": "110"
+            },
+            {
+                "title": "棒球棒球外套棒球外套棒球外套棒球外套外套",
+                "pic": "http://b.hiphotos.baidu.com/image/pic/item/060828381f30e924293d2ba744086e061c95f78f.jpg",
+                "price": "95",
+                "oldprice": "118",
+                "sellnum": "110"
+            }
+        ]
+    }
+}
