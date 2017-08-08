@@ -1,0 +1,82 @@
+$l-gray : #666;
+$red : #ff0066;
+@font-face {font-family: "iconfont";
+    src: url(../src/assets/font/iconfont-full.ttf) format('truetype'); 
+}
+@mixin l-bg-image($images:'index/1.jpg',$left:0,$top:0) {
+  background-image:url(#{$images});
+  background-position:$left $top;
+}
+@mixin l-xh($num:2) {
+  text-overflow: ellipsis;
+  overflow:hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $num;
+  -webkit-box-orient: vertical;
+}
+.clearfix{
+    *zoom:1;
+}
+.clearfix:before,
+.clearfix:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after{
+  clear: both;
+}
+.text-center{
+  text-align: center;
+}
+.text-error{
+  font-size: 12px;
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+}
+[v-cloak] {
+      display: none;
+    }
+.icon-loading{
+    margin: 5px auto;
+    width: 20px;
+    height: 20px;
+    display: block;
+    //background: url(../src/assets/images/loading_sprite.png);
+    -webkit-background-size: auto 20px;
+    -webkit-animation: am-rotate 1s steps(12) infinite;
+}
+.ui-grid2{
+    img{
+        width: 100%;
+        display: block;
+    }
+    h5{
+        margin-top: 8px;
+    }
+    del{
+        margin-left: 10px;
+    }
+
+}
+#app{
+  height: 100%;
+  width: 100%;
+}
+.btn-copy{
+  display: inline-block;
+  border:solid 1px #a8a8a8;
+  border-radius: 6px;
+  padding-left: 5px;
+  padding-right:5px;
+  height: 30px;
+  line-height: 30px;
+  a{
+    border-left:solid 1px #a8a8a8;
+    text-align: right;
+    display: inline-block;
+    padding-left: 5px;
+    margin-left: 5px;
+  }
+}
+

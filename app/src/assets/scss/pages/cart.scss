@@ -1,0 +1,246 @@
+
+
+.cart{
+	background-color:#f7f7f7;
+	.icon-house{
+		width: 16px;
+		height: 16px;
+		display: inline-block;
+		margin-right: 10px;
+		background-image: url(../src/assets/images/icon-house.png);
+		background-size:100%;
+		vertical-align: middle;
+	}
+	.cart-title{
+		background-color:#f7f7f7;
+		height:50px;
+		line-height: 50px;
+		a{
+			color: #666;
+		}
+	}
+	.cart-editor{
+		p{
+			margin-top: 0;
+		}
+	}
+	.ui-list-text{
+		border-top: solid 1px #dcdcdc;
+	}
+	.cart-list li{
+		margin-left:0;
+		padding-left:$wrap-padding-s;
+		border-bottom:solid 1px #dcdcdc;
+		.cart-c{
+			h4{
+				height: 42px;
+				line-height: 21px;
+			}
+		}
+	}
+	.ui-list.cart-list {
+		.ui-avatar-s{
+			width: auto;
+			height: auto;
+			margin: 0;
+		}
+		.ui-avatar{
+			@extend .ui-avatar-s;
+			margin-right: 5px;
+		}
+		.cart-c {
+			p{
+				margin-top: 10px;
+			}
+		}
+		.attributes{
+			display: inline-block;
+			margin-right: 5px;
+		}
+	}
+	.cart-list-editor .cart-c{
+		display: none;
+	}
+	.cart-list-editor .cart-editor{
+		display: block;
+	}
+	.ui-footer{
+		.hide{
+			display: none;
+		}
+		.show{
+			display: inline-block;
+		}
+	}
+	.ui-empty {
+	  position: absolute;
+	  top: 50%;
+	  width: 100%;
+	  text-align: center;
+	  -webkit-transform: translate(0,-50%);
+	  transform: translate(0,-50%)
+	}
+
+	.ui-empty-icon {
+	  display: inline-block;
+	  width: 127px;
+	  height: 127px;
+	  line-height: 127px;
+	  color: #fff;
+	  background: #ddd5d7;
+	  -webkit-border-radius: 50%;
+	  border-radius: 50%
+	}
+
+	.ui-empty-icon i {
+		color: #fff;
+	  font-size: 120px;
+	  margin-top:40px;
+	}
+
+	.ui-empty-text {
+	  margin: 15px 0 10px
+	}
+
+	.ui-empty-btn .ui-btn {
+		background-color:#fff;
+	}
+
+}
+.ui-icon-unfold{
+		height: 21px;
+		width: 21px;
+		display: inline-block;
+		position: relative;
+		&:before{
+			display: block;
+			position:absolute;
+			top:-5px;
+			content: "\f628";
+		}
+	}
+.edit-quantity{
+	display: flex;
+	p{
+		margin-top: 0;
+	}
+	p.btn-minus{
+		border:solid 1px #a8a8a8;
+		cursor: pointer;
+		height: 35px;
+		line-height: 35px;
+		&.btn-disabled{
+			color: #ccc;
+			border-color:#ccc;
+			a{
+				color: #ccc;
+			}
+		}
+	}
+	a.btn{
+		width: 35px;
+		display: block;
+		text-align:center;
+	}
+	p.btn-input{
+		height: 35px;
+		line-height: 35px;
+		border:solid 1px #a8a8a8;
+		-webkit-box-flex: 1;
+	    -webkit-flex: 1;
+	    -ms-flex: 1;
+	    flex: 1;
+	    width: 100%;
+	    cursor: pointer;
+	    border-left: 0;
+	    border-right: 0;
+	    input {
+		    width: 100%;
+		    text-align: center;
+		    background-color: transparent;
+		    color: inherit;
+		    font-family: inherit;
+		    font-style: inherit;
+		    font-weight: inherit;
+		    min-height: 1.5em;
+		    -webkit-box-sizing: border-box;
+		    box-sizing: border-box;
+		    -webkit-appearance: none;
+		    border: 0;
+		}
+	}
+}
+.cart-quantity{
+	width:160px;
+}
+i.icon-del{
+		background-image:url(../src/assets/images/icon-del.png);
+		background-size:100%;
+		background-repeat:no-repeat;
+		display: block;
+		width: 15px;
+		height: 16px;
+		margin-left: 10px;
+		margin-right: 10px;
+		background-position: 0 15px;
+	    padding-top: 20px;
+		padding-bottom: 20px;
+		@media(max-width:320px){
+			margin-left: 10px;
+		}
+	}
+.cart-dialog-wrap{
+	background-color:#fff;
+	bottom:0;
+	position:fixed;
+	left:0;
+	width:100%;
+	i.cart-dialog-close{
+		background-image:url(../src/assets/images/icon-cart-close.png);
+		background-size:100%;
+		position:absolute;
+		display: block;
+		top: -10px;
+		right: 10px;
+		width: 25px;
+		height: 25px;
+
+	}
+	.cart-dialog-style{
+		padding-left: 10px;
+		padding-right:10px;
+		padding-bottom:10px;
+		font-size: 12px;
+		h4{
+			line-height: 35px;
+			height: 35px;
+		}
+		p{
+			font-size: 12px;
+		}
+		a{
+			font-size: 12px;
+			&.ui-btn{
+				color: #000;
+				height:30px;
+				line-height: 30px;
+				padding-right:10px;
+				padding-left:10px;
+				border:solid 1px #000;
+				margin-right:10px;
+				margin-bottom: 10px;
+				min-width:80px;
+			}
+			&.btn-ychose-active{
+				border-color:#ff0066;
+				color: #ff0066;
+			}
+			&.btn-ychose-disable{
+				border-color:#a8a8a8;
+				color: #a8a8a8;
+			}
+		}
+
+	}
+	
+}

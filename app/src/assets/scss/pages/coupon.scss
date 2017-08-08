@@ -1,0 +1,47 @@
+.coupon{
+	.coupon-item{
+		background-image: url(../src/assets/images/coupon/bg1.png);
+		background-size:100%;
+		background-repeat:no-repeat;
+		margin: 10px auto;
+		width: 3.2rem;
+    	height: 1.27rem;
+    	color: #fff;
+    	padding: 0.1rem;
+
+    	p{
+    		line-height: 0.20rem;
+    		height: 0.20rem;
+    		font-size: 12px;
+    	}
+    	span{
+			font-size: 18px;
+			line-height: 0.8rem;
+			strong{
+				font-weight: normal;
+				font-size: 50px;
+			}
+    	}
+    	.item-b{
+    		color: #666;
+    		font-size: 12px;
+    		i.icon-time{
+    			display: inline-block;
+    			vertical-align: middle;
+    			width: 0.16rem;
+    			height: 0.16rem;
+    			background-image:url(../src/assets/images/coupon/icon-time.png);
+    			background-size:100%;
+				background-repeat:no-repeat;
+				margin-right: 5px;
+    		}
+    	}
+    	&.expired{
+    		background-image: url(../src/assets/images/coupon/bg3.png);
+    	}
+    	&.use{
+    		background-image: url(../src/assets/images/coupon/bg2.png);
+    	}
+	}
+	
+}

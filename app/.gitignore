@@ -1,0 +1,6 @@
+/index.php
+/index-test.php
+node_modules/
+src/main.js
+npm-debug.log
+selenium-debug.log

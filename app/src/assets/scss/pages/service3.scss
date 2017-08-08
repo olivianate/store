@@ -1,0 +1,166 @@
+@import
+    "l_public";
+
+
+.service_body3{
+	padding-top:55px;
+	padding-bottom:60px;
+	background-color:#fff;
+	height:auto;
+	img{
+		width:100%;
+		display:block;
+	}
+	.ser_list{
+		color:$l-gray;
+		padding:0 15px;
+		a{
+			color:$l-gray;
+		}
+		li{
+			color:$l-gray;
+			position: relative;
+			box-sizing:border-box;
+			margin-bottom:20px;
+			position: relative;
+			h4{
+				color:#666;
+				font-size:14px;
+				height:34px;
+			}
+			.ser_list_time{
+				display: block;
+				position: absolute;
+				//width:80px;
+				height:20px;
+				left:50%;
+				margin-left:-40px;
+				text-align:center;
+				top:0;
+				background-color:#f1f1f1;
+				border-radius:3px;
+				padding:2px 5px;
+				font-size:11px;
+				line-height:20px;
+			}
+			.ser_list_item_mai{
+				
+				background-color:#6ec7ff;
+				color:#fff;
+				box-sizing:border-box;
+				padding:0 20px 10px 20px;
+				margin-left:12px;
+				border-radius:5px;
+				position: relative;
+				line-height:24px;
+				font-size:12px;
+				.ser_arrow{
+					border-color: #fff #6ec7ff #fff #fff;
+					border-style:solid;
+					border-width:6px 7px 6px 0px;
+					height:0;
+					width:0;
+					position: absolute;
+					left:-7px;
+					top:12px;
+				}
+				p{
+					//min-height:45px;
+					line-height:24px;
+				}
+				.ser_item_content{
+					padding:10px 0;
+				}
+				.ser_item_title{
+					font-size:14px;
+					border-bottom:1px #fff solid;
+					line-height: 40px;
+					.ser_list_title_time{
+						float:right;
+						span{
+							background-color:#962f52;
+							padding:0 2px;
+						}
+					}
+				}
+				.ser_item_money{
+					font-size:14px;
+					box-sizing:border-box;
+					padding:0px 10px;
+					border:1px #fff dashed;
+					margin-bottom:20px;
+				}
+				.ser_item_xitong{
+					box-sizing:border-box;
+					padding:10px 0;
+				}
+				.ser_item_price{
+					border-width:1px;
+					border-style:solid dashed dashed dashed;
+					border-color:#fff;
+					margin-bottom: 10px;
+					padding: 10px;
+				}
+				.ser_item_num{
+					border-top:1px #962f52 solid;
+					color: #962f52;
+				}
+			}
+			.ser_list_item_xitong{
+				background-color:#ff6e9f;
+				.ser_arrow{
+					border-color: #fff #ff6e9f #fff #fff;
+				}
+			}
+			.ser_seller{
+				background-color:#f1f1f1;
+				color: #666;
+				.ser_arrow{
+					border-color: #fff #f1f1f1 #fff #fff;
+				}
+			}
+		}
+		
+	}
+	footer{
+		position:fixed;
+		bottom:0;
+		height:45px;
+		border-top:none;
+		width: 100%;
+		padding-top: 7px;
+		background-color:#fff;
+		ul{
+			li{
+				float:left;
+				text-align: center;
+				width:28.6%;
+				border:1px #ccc solid;
+				height:35px;
+				line-height:35px;
+				margin:0 2%;
+				display: block;
+				background-color:#fff;
+				&:nth-child(1){
+					border-color:$red;
+					color:#fff;
+					background-color:$red;
+				}
+				&.disabled{
+					color: #fff;
+					border:1px #ccc solid;
+					background-color:#cecece;
+				}
+			}
+		}
+	}
+}
+.service_body3_end{
+	footer{
+		ul{
+			a:last-child li{
+				float:right;
+			}
+		}
+	}
+}

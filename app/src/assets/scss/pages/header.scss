@@ -1,0 +1,45 @@
+$ui-header-height:44px; 
+$ui-header-lineheight:44px;
+$ui-header-position:fixed;
+/**
+ * 头部导航
+ */
+.ui-header{
+	z-index:99;
+	background-color:#fff;
+	height:$ui-header-height;
+	line-height:$ui-header-lineheight;
+	position: $ui-header-position;
+	top:0;
+	left:0;
+	width:100%;
+	border-bottom:solid 1px #dcdcdc;
+	h1{
+		text-align:center;
+		font-size: 16px;
+		color: #666;
+		font-weight: normal;
+	}
+	.ui-icon-return {
+	    position: absolute;
+	    left: 0;
+	    &:before{
+	    	content: "\f614";
+	    }
+	}
+	.ui-btn{
+		display: block;
+	    position: absolute;
+	    right: 10px;
+	    top: 50%;
+	    margin-top: -15px;
+	    &.ui-btn-text{
+	    	color: #666;
+	    	background-image:none;
+	    }
+	}
+}
+
+.ui-container{
+	/* margin-top:$ui-header-height; */
+}

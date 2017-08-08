@@ -1,0 +1,128 @@
+@import
+    "l_public";
+
+
+.personal_body{
+	padding-bottom:55px;
+	background-color:#fff;
+	img{
+		width:100%;
+		display:block;
+	}
+	.per-top{
+		position:relative;
+		width: 100%;
+		.per-head{
+			position:absolute;
+			width:100%;
+			top:20%;			
+			.per-head-in{
+				width: 80px;
+				padding:5px;
+				background:#fff;
+				box-sizing:border-box;
+				position: relative;
+				margin:0 auto;
+				border-radius:40px;
+				img{
+					width: 100%;
+					border-radius:35px;
+				}
+			}
+			p{
+				width:100%;
+				text-align:center;
+				margin-top:5px;
+				font-weight:550;
+			}
+		}
+		.setting{
+			position:absolute;
+			width:18px;
+			top:20px;
+			right:10px;
+		}	
+	}
+	.per-libox{
+		color:$l-gray;
+		a{
+			color:$l-gray;
+		}
+		li{
+			color:$l-gray;
+			height:50px;
+			line-height:50px;
+			text-indent:40px;
+			position: relative;
+			border-bottom:1px #eee solid;
+			@include l-bg-image('../src/assets/images/next.png',96%,center);
+			background-size:9px;
+			background-repeat:no-repeat;
+			i{	
+				display:block;
+				width:16px;
+				height:20px;
+				position: absolute;
+				top:center;
+				z-index: 9;
+				top:16px;
+				left:16px;
+				@include l-bg-image('../src/assets/images/personal/ico_ymdsp@2x.png');
+				background-size:100%;
+				background-repeat:no-repeat;
+			}
+		}
+		.per-ed{
+			border-top:1px #eee solid;
+			span{
+				float:right;
+				padding-right:40px;
+				font-size:12px;
+				font-weight:550;
+			}
+		}
+		.per-collection{
+			i{@include l-bg-image('../src/assets/images/personal/ico_wdsc@2x.png');}
+		}
+		.per-msg{
+			i{@include l-bg-image('../src/assets/images/personal/ico_yhxx@2x.png');}
+		}
+		.per-address{
+			i{@include l-bg-image('../src/assets/images/personal/ico_shdz@2x.png');}
+		}
+		.per-tj{
+			i{@include l-bg-image('../src/assets/images/personal/ico_tjyj@2x.png');}
+		}
+		.per-service{
+			i{@include l-bg-image('../src/assets/images/personal/ico_fwzx@2x.png');}
+		}
+		.per-shop{
+			i{@include l-bg-image('../src/assets/images/personal/ico_dpgl@2x.png');}
+		}
+		.per-li-libox{
+			height:71px;
+			width: 100%;
+			background-image:none;
+			ul{
+				width: 100%;
+			}
+			li{
+				box-sizing:border-box;
+				border:none;
+				float:left;
+				width:25%;
+				text-align:center;
+				text-indent:0px;
+				padding-top:27px;
+				background-size:auto 23px;
+				background-repeat:no-repeat;
+				font-size:12px;
+			}
+			@for $i from 1 through 4 {
+			  li:nth-child(#{$i}) { 
+			  	@include l-bg-image('../src/assets/images/personal/#{$i}.png',center,10px);
+			  }
+			}
+		}
+	}
+}

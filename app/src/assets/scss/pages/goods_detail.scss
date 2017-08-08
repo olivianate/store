@@ -1,0 +1,243 @@
+@import
+    "l_public";
+
+.gd_body{
+	background-color:#f7f7f7;
+	padding-bottom:50px;
+	/* img{
+		width:100%;
+		display:block;
+	} */
+	.ui-poptips{
+		z-index: 99999;
+		top:80%;
+	}
+	.top{
+		border-bottom:1px #eee solid;
+		margin-bottom:10px;
+		img{
+			width: 100%;
+			display:block;
+		}
+		.prev,.share{
+			width:27px;
+			position:absolute;
+			top:15px;
+		}
+		.prev{
+			left:10px;
+		}
+		.share{
+			right:10px;
+		}
+	}
+	
+	.content{
+		margin-top:10px;
+		font-size:14px;
+		color:$l-gray;
+		h3{
+			box-sizing:border-box;
+			color:#000;
+			height:66px;
+			line-height: 23px;
+			font-weight:600;
+			border-bottom:1px #eee solid;
+			border-top:1px #eee solid;
+			padding:17px 15px 0;
+		}
+		p{
+			height:45px;
+			padding:0 15px;
+			line-height:45px;
+			border-bottom:1px #eee solid;
+			position:relative;
+			.red{
+				font-size:18px;
+			}
+			.c_mid{
+				position:absolute;
+				left:35%;
+
+			}
+			.c_right{
+				float:right;
+			}
+		}
+		a{
+			color:$l-gray;
+		}
+		.pick{
+			background: url(../src/assets/images/next.png) 96% center;
+			//@include l-bg-image('../src/assets/images/next.png',96%,center);
+			background-size:9px;
+			background-repeat:no-repeat;
+		}
+	}
+	.detail{
+		padding:0 10px;
+		h3{
+			color:#777;
+			font-size:16px;
+			width:100%;
+			text-align:center;
+			line-height:50px;
+			font-weight:550;
+		}
+		img{
+			width: 100%;
+			display:block;
+		}
+	}
+	.gd_footer{
+		position:fixed;
+		bottom:0;
+		z-index:999;
+		height:50px;
+		width:100%;
+		background-color:#f0f0f0;
+		div{
+			float:left;
+			height:100%;
+			line-height:50px;
+			text-align:center;
+			color:$l-gray;
+		}
+		.collect,.shopping_cart{
+			width: 15%;
+			font-size:12px;
+			padding-top:13px;
+			background-size:23px;
+			margin-top: 5px;
+			line-height: 40px;
+		}
+		.collect{
+			
+			border-right:1px #ddd solid;
+			box-sizing:border-box;
+			background: url(../src/assets/images/icon-call.png) center top no-repeat;
+			background-size:40%;
+		}
+		.shopping_cart{
+			background: url(../src/assets/images/ico_gwc_01.png) center top no-repeat;
+			background-size:28px;
+			position:relative;
+			background-size:58%;
+
+			i{
+				position:absolute;
+				top:0;
+				right:6px;
+				line-height:18px;
+				background-color:$red;
+				color:#fff;
+				display:block;
+				width:18px;
+				height:18px;
+				border-radius:9px;
+				font-weight:400;
+				
+			}
+		}
+		.to_shoppoing,.buy{
+			color:#fff;
+			width:35%;
+			font-size:17px;
+			font-weight:550;
+		}
+		.to_shoppoing{
+			background-color:#ff6e9e;
+		}
+		.buy{
+			background-color:$red;
+		}
+	}
+	//联系卖家
+	.call-change-dialog{
+		.call_content{
+			padding:0.5rem 0.2rem;
+			box-sizing:border-box;
+			border-radius:8px;
+			width:90%;
+			background-color:#fff;
+			position: relative;
+			h4{
+				width:100%;
+				text-align:center;
+				color:#28b6ff;
+				font-size:16px;
+				padding-bottom:10px;
+			}
+			img{
+				width:50%;
+				display: block;
+				position: relative;
+				margin:0 auto;
+				margin-bottom:20px;
+			}
+			.call_box{
+				height:30px;
+				margin-bottom:20px;
+				line-height:30px;
+				a.call,span{
+					display:inline-block;
+					width:86px;
+					border:1px #ddd solid;
+					color:#28b6ff;
+					float:right;
+					height:28px;
+					line-height:28px;
+					text-align:center;
+				}
+			}
+			.call_close{
+				display: block;
+				width:35px;
+				height:57px;
+				position: absolute;
+				bottom:-57px;
+				left:50%;
+				margin-left:-17px;
+				background: url(../src/assets/images/icon-close2.png) center top no-repeat;
+				background-size:100%;
+				background-repeat:no-repeat;
+			}
+		}
+		
+	}
+}
+.prefer{
+	margin-top:10px;
+	.prefer-title{
+		text-align: center;
+		color: #ff0066;
+		position:relative;
+		&:before{
+			content: '';
+			height: 1px;
+			top: 50%;
+			right: 10%;
+			width: 30%;
+			position: absolute;
+			background-color:#a8a8a8;
+		}
+		&:after{
+			content: '';
+			height: 1px;
+			top: 50%;
+			left: 10%;
+			width: 30%;
+			position: absolute;
+			background-color:#a8a8a8;
+		}
+	}
+}
+.ui-grid-halve{
+  h4{
+    margin-top: 5px;
+    margin-bottom: 8px;
+  }
+  span{
+  	font-size: 16px;
+  }
+}

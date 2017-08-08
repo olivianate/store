@@ -1,0 +1,187 @@
+  
+$form-item-padding: 10px;
+$form-item-margin:5px;
+$form-item-bgcolor:#fff;
+$form-itemwrap-margin:10px;
+$form-itemwrap-margin:10px;
+
+
+$ui-form-title-bg:#f7f7f7;
+$ui-form-title-height:40px;
+$ui-form-title-lineheight:40px;
+$ui-form-title-padding:8px;
+
+$ui-form-input-paddingleft:30px;
+$form-label-width:                      95px;
+/* 公共 */
+.text-right{
+	text-align:right;
+}
+.ui-btn-redb{
+	border:solid 1px #ff0066;
+	padding:5px 20px;
+	display:inline-block;
+	color:#ff0066;
+}
+.ui-wrap-b{
+	padding:10px;
+} 
+/**
+ * 表单
+ */
+
+ input[type="text"], input[type="password"], input[type="number"], input[type="email"], input[type="tel"], textarea{
+ 	color: #666;
+ }
+.ui-form-itemwrap{
+	margin-left:$form-itemwrap-margin;
+	margin-right:$form-itemwrap-margin;
+} 
+.ui-form-item {
+	background:$form-item-bgcolor;
+	height:40px;
+	line-height:40px;
+	/* margin-top:$form-item-margin;
+	margin-bottom:$form-item-margin; */
+	position: relative;
+	padding-top:$form-item-padding;
+	padding-bottom:$form-item-padding;
+	//padding-right: $form-item-padding;
+	//padding-left: $form-item-padding;
+	
+	label:not(.ui-switch):not(.ui-checkbox):not(.ui-radio){
+		width: $form-label-width;
+		position: absolute;
+		text-align: left;
+		box-sizing: border-box;
+	}
+	input,
+	textarea{
+		width: 100%;
+		box-sizing: border-box;
+		-webkit-appearance: none;
+		border: 0;
+		background: none;
+	}
+	input[type="checkbox"],input[type="radio"]{
+		padding-left: 0;
+	}
+	.ui-icon-close{
+		position: absolute;
+    	top: 14%;
+    	right: 6px;
+    	margin:5px;
+    	background-image:url(../src/assets/images/icon-close.png);
+    	background-size:100%;
+    	width: 21px;
+    	height: 21px;
+    	@media (max-width: 320px) {
+	    	right: 1px;
+		}
+	}
+	.ui-icon-eye{
+		position: absolute;
+    	top: 30%;
+    	right: 6px;
+    	margin:5px;
+    	background-size:100%;
+    	width: 24px;
+    	height: 15px;
+    	background-image:url(../src/assets/images/icon-eye-close.png);
+    	&.show{
+    		background-image:url(../src/assets/images/icon-eye.png);
+    	}
+    	@media (max-width: 320px) {
+	    	right: 1px;
+		}
+	}
+}
+.ui-border-b{
+	border-bottom:solid 1px #dcdcdc;
+}
+.ui-form-title{
+	background-color:$ui-form-title-bg;
+	height:$ui-form-title-height;
+	line-height:$ui-form-title-lineheight;
+	padding-left:$ui-form-title-padding;
+	padding-right:$ui-form-title-padding;
+	font-size:12px;
+	border-bottom:solid 1px #dcdcdc;
+}
+.ui-form-icon{
+	i{
+		position: absolute;
+		width: 28px;
+		height: 28px;
+		display: inline-block;
+		box-sizing: border-box;
+		background-size:100%;
+		background-repeat:no-repeat;
+		&.form-item-phone{
+			background-image:url(../src/assets/images/icon-phone.png);
+			top:16px;
+		}
+		&.form-item-pwd{
+			background-image:url(../src/assets/images/icon-pwd.png);
+			top:16px;
+		}
+	}
+	input{
+		padding-left: $ui-form-input-paddingleft;
+		&.form-input-ricon{
+			padding-right:30px;
+		}
+		&.form-input-rbtn{
+			padding-right:70px;
+		}
+	}
+	
+}
+a{
+	&.form-btn{
+		position:absolute;
+		display: block;
+		padding: 5px 8px;
+		top:6px;
+		right:6px;
+		text-align: center;
+		border:solid 1px #a8a8a8;
+	}
+	&.form-btn-check{
+		width: 100px;
+		position:absolute;
+		display: block;
+		top:8px;
+		right:10px;
+		text-align: center;
+		img{
+			display: block;
+			width: 100%;
+		}
+	}
+}
+
+.ui-form-check{
+	padding-right:120px;
+}
+.ui-form-iconright{
+	padding-right:40px;
+}
+
+.ui-form-item-r .countdown {
+	text-align:center;
+	width: 110px;
+	height: $line-height-bar;
+	position: absolute;
+	top: 0; 
+	right: 0;
+}
+
+.ui-form-item-r .countdown.disabled {
+	color: $txt-muted;
+	background-color:#e9e9e9;
+}
+
+.ui-form-item-r .countdown:not(.disabled):active {
+	background-color: $active-bg;
+}

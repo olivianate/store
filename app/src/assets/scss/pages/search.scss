@@ -1,0 +1,124 @@
+.search{
+	background-color:#fff;
+	.search-t{
+		position:fixed;
+		top:0;
+		left: 0;
+		width: 100%;
+	}
+	.ui-searchbar-wrap{
+		background-color:#fff;
+		.ui-searchbar-cancel{
+			color: #666;
+		}
+	}
+	.search-tab{
+		position:fixed;
+		top:45px;
+		left: 0;
+		width: 100%;
+		border-bottom: solid 1px #dcdcdc;
+		background-color:#fff;
+		height: 40px;
+		line-height: 40px;
+
+		span{
+			width: 33%;
+			text-align: center;
+			display: inline-block;
+			&.current{
+					color: #ff0066;
+			}
+		}
+
+		span:nth-child(2){
+			position:relative;
+			&:after{
+				position:absolute;
+				display: block;
+				content: '';
+				left:68%;
+				top:30%;
+				background-image: url(../src/assets/images/search/tab-mid-defult.png);
+				background-size:90%;
+				background-repeat:no-repeat;
+				width: 13px;
+				height: 19px;
+			}
+			&.current{
+				color: #ff0066;
+				&:after{
+					background-image: url(../src/assets/images/search/tab-mid-up.png);
+				}
+				&.down{
+					&:after{
+						background-image: url(../src/assets/images/search/tab-mid-down.png);
+					}
+				}
+			}
+		}
+	}
+	.ui-row{
+		padding-top:46px;
+		padding-left: 10px;
+    	padding-right: 5px;
+    	li{
+    		padding-right: 5px;
+    		padding-bottom: 10px;
+			img{
+				width:100%;
+			}
+			h5{
+				&.default{
+					height: 40px;
+					line-height: 20px;
+					overflow : hidden;
+					text-overflow: ellipsis;
+					display:-webkit-box;
+					-webkit-line-clamp:2;
+					-webkit-box-orient: vertical;
+					margin-top:5px;
+					margin-bottom: 8px;
+				}
+				
+				&.price{
+					margin-top: 5px;
+					color: #ff0066;
+					line-height: 20px;
+					overflow : hidden;
+					text-overflow: ellipsis;
+					display:-webkit-box;
+					-webkit-line-clamp:1;
+					-webkit-box-orient: vertical;
+					small{
+						font-size: 12px;
+					}
+				}
+				small{
+					color: #a8a8a8;
+					text-decoration: line-through;
+					margin-left: 5px;
+				}
+			}
+    	}
+	}
+	.search-wrapper{
+	}
+}
+.hot-search{
+	padding-top:10px;
+	p{
+		vertical-align: middle;
+		height: 40px;
+		line-height: 40px;
+	}
+	.search-key{
+		border:solid 1px #a4a4a4;
+		padding:5px 10px;
+		border-radius: 6px;
+		display: inline-block;
+		margin-right: 10px;
+		color: #666;
+	}
+}
+

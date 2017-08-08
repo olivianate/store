@@ -1,0 +1,130 @@
+@import
+    "l_public";
+
+.red{
+	color:$red;
+}
+.index_body{
+	padding-bottom:70px;
+	background-color:#fff;
+	.ui-tab-title{
+            position: fixed;
+            z-index: 99;
+            top: 0;
+            overflow-x: scroll;
+            width: 100%;
+            background-color: rgba(0,0,0,0.9);
+        }
+        .ui-tab-nav{
+            background-color: rgba(0,0,0,0.9);
+        }
+        .ui-tab-nav li{
+            color:#fff;
+        }
+        .ui-tab-nav li.current{
+            color:#ff0066;
+            border: none;
+        }
+        .wrap-list{
+            display: none;
+        }
+        .wrap-list.active{
+            display: block;
+        }
+	img{
+		width:100%;
+		display:block;
+	}
+
+	header{
+		position: relative;
+		width:100%;
+		.header_head{
+			width: 76px;
+			background-color:#fff;
+			padding:3px;
+			position: absolute;
+			bottom:15px;
+			left:10px;
+			border-radius:38px;
+
+			img{
+				border-radius:35px;
+			}
+		}
+		.header_msg{
+			height:55px;
+			box-sizing:border-box;
+			padding-top:5px;
+			h3{
+				display:block;
+				color:$l-gray;
+				font-size:15px;
+				font-weight:550;
+				padding:0 30px 0 100px;
+				@include l-xh(1);
+				line-height:23px;
+			}
+			p{
+				font-size:10px;
+				color:#a3a3a3;
+				margin:0 30px 0 100px;
+				@include l-xh(1);
+			}
+			.collect{
+				height:25px;
+				width:25px;
+				@include l-bg-image('../src/assets/images/ico_sc_01.png');
+				background-size: 100%;
+				position: absolute;
+				bottom:12px;
+				right:2px;
+			}
+			.active{
+				@include l-bg-image('../src/assets/images/ico_sc_02.png');
+			}
+		}
+		
+	}
+	
+	.banner{
+		margin:6px 10px 0;
+	}
+	.banner:nth-child(2){
+		margin:0;
+	}
+	
+	.list-wrap{
+	    li{
+	    	width: auto;
+		    height: 130px;
+		    margin: 6px 10px 0;
+		    h6{
+		    	height: 42px;
+		    }
+		    .ui-row-flex{
+		    	margin-top: 5px;
+		    }
+	    	.ui-list-img{
+	    		width: 130px;
+	    		height: 130px;
+	    		margin:0;
+	    	}
+	    	.s_toCart{
+	    		display: inline-block;
+			    width: 98px;
+			    height: 25px;
+			    background-color: #ff0066;
+			    border-radius: 4px;
+			    font-size: 13px;
+			    color: #fff;
+			    line-height: 25px;
+			    text-align: center;
+			    @media (max-width:320px){
+			    	width: 100%;
+			    }
+	    	}
+	    }
+	}
+}
+

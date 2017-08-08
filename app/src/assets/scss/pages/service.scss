@@ -1,0 +1,69 @@
+@import
+    "l_public";
+
+
+.service_body{
+	padding-top:55px;
+	padding-bottom:60px;
+	background-color:#f7f7f7;
+	img{
+		width:100%;
+		display:block;
+	}
+	.libox{
+		color:$l-gray;
+		background-color:#fff;
+		a{
+			color:$l-gray;
+		}
+		li{
+			color:$l-gray;
+			height:68px;
+			position: relative;
+			border-bottom:1px #eee solid;
+			@include l-bg-image('../src/assets/images/next.png',96%,center);
+			background-size:9px;
+			background-repeat:no-repeat;
+			box-sizing:border-box;
+			padding:13px 0 0 60px;
+			i{	
+				display:block;
+				width:34px;
+				height:34px;
+				position: absolute;
+				top:center;
+				z-index: 9;
+				top:16px;
+				left:16px;
+				@include l-bg-image('../src/assets/images/service/ico-ser-01.png');
+				background-size:100%;
+				background-repeat:no-repeat;
+			}
+			p{
+				line-height:22px;
+				font-size:12px;
+				color:#a8a8a8;
+			}
+			.ser-title{
+				font-size:14px;
+				color:#666;
+				font-weight:550;
+			}
+		}
+		li:nth-child(1){
+			border-top:1px #eee solid;
+		}
+		.tuihuan{
+			i{@include l-bg-image('../src/assets/images/service/ico-ser-01.png');}
+		}
+		.tui{
+			i{@include l-bg-image('../src/assets/images/service/ico-ser-02.png');}
+		}
+		.huan{
+			i{@include l-bg-image('../src/assets/images/service/ico-ser-03.png');}
+		}
+		.xiu{
+			i{@include l-bg-image('../src/assets/images/service/ico-ser-04.png');}
+		}
+	}
+}
